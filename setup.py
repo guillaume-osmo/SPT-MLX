@@ -10,11 +10,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="spt-mlx",
     version="1.0.0",
-    author="SPT-MLX Contributors",
+    author="Guillaume Godin @ Osmo",
     description="Standalone MLX implementation of SMILES2PropertiesTransformer",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/SPT-MLX",
+    url="https://github.com/guillaume-osmo/SPT-MLX",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -30,7 +30,7 @@ setup(
     python_requires=">=3.8",
     install_requires=[
         "mlx>=0.0.1",
-        "numpy>=1.20.0",
+        "numpy>=1.20.0,<2.0.0",
         "rdkit-pypi>=2022.9.1",
     ],
     extras_require={
