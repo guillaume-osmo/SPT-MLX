@@ -1,0 +1,5 @@
+include README.md
+include requirements.txt
+include RELEASE_NOTES.md
+include example.py
+recursive-include spt_mlx *.py
