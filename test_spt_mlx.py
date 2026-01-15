@@ -21,7 +21,7 @@ def test_model_loading():
     print("Test 1: Model Loading")
     print("="*60)
     
-    model_path = "../Models"
+    model_path = "Models"
     model_name = "model_512_brouwer"
     
     try:
@@ -43,7 +43,7 @@ def test_vocabulary_loading():
     print("Test 2: Vocabulary Loading")
     print("="*60)
     
-    vocab_path = "../vocab/vocab_dict_aug.csv"
+    vocab_path = "vocab/vocab_dict_aug.csv"
     
     try:
         vocab_dict = load_vocabulary(vocab_path)

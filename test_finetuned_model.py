@@ -108,9 +108,9 @@ def main():
     print("="*80)
     
     # Paths
-    model_path = "../Models"
-    vocab_path = "../vocab/vocab_dict_aug.csv"
-    test_data_path = "../raw_data/brouwer_cleaned/brouwer_cleaned.csv"
+    model_path = "Models"
+    vocab_path = "vocab/vocab_dict_aug.csv"
+    test_data_path = "data/brouwer_dataset.csv"
     
     # Load vocabulary
     print("\nLoading vocabulary...")

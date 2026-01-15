@@ -240,15 +240,15 @@ def save_model_mlx(model: GPT, config: ModelConfig, output_path: Path, model_nam
 
 def main():
     parser = argparse.ArgumentParser(description='Fine-tune SPT-MLX model')
-    parser.add_argument('--model_path', type=str, default='../Models',
+    parser.add_argument('--model_path', type=str, default='Models',
                         help='Path to model directory')
     parser.add_argument('--model_name', type=str, default='model_512_brouwer',
                         help='Model name (without extension)')
     parser.add_argument('--data_path', type=str, required=True,
                         help='Path to training data CSV (with SMILES0, SMILES1, T, y0 columns)')
-    parser.add_argument('--vocab_path', type=str, default='../vocab/vocab_dict_aug.csv',
+    parser.add_argument('--vocab_path', type=str, default='vocab/vocab_dict_aug.csv',
                         help='Path to vocabulary file')
-    parser.add_argument('--output_path', type=str, default='../Models',
+    parser.add_argument('--output_path', type=str, default='Models',
                         help='Output directory for fine-tuned model')
     parser.add_argument('--output_name', type=str, default='model_512_brouwer_ft',
                         help='Output model name')

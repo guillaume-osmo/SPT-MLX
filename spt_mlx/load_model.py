@@ -212,4 +212,3 @@ def _load_mlx_model(checkpoint_path: Path, config_path: Path) -> Tuple[GPT, Mode
     
     return model, config
     
-    return model, config
