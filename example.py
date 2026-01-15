@@ -13,7 +13,7 @@ def main():
     # Paths to model files (adjust as needed)
     model_path = "Models"
     model_name = "model_512_brouwer"
-    vocab_path = "../vocab/vocab_dict_aug.csv"
+    vocab_path = "vocab/vocab_dict_aug.csv"
     
     print("Loading model and vocabulary...")
     model, config = load_model(model_path, model_name)
